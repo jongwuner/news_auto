@@ -1,8 +1,7 @@
 name: Run Rss Webhook Bots
 on:
-     schedule:
+  schedule:
          - cron: "0 */4 * * *"      
-on:
   push:
     branches: [ main ]
 jobs:
