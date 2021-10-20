@@ -37,7 +37,6 @@ def callWebhook (payload):
     'Content-type' : 'application/json',
   }
   res = requests.post(SLACK_WEBHOOK_URL, headers=headers, json=payload)
-
   print(res.text)
 
 def getNewsFromRss():
