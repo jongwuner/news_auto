@@ -4,7 +4,7 @@ import xmltodict
 import html
 import os
 
-# slack_webhook_bot
+# slack_webhook_bot!
 SLACK_WEBHOOK_URL = os.environ.get('SLACK_WEBHOOK_URL')
 
 def makePayloadItem(newsItem):
